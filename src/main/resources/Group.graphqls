@@ -1,0 +1,6 @@
+type Group {
+    id: String
+    name: String
+    type: String
+    members: [User]
+}
