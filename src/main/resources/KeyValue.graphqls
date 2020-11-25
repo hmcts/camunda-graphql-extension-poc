@@ -1,0 +1,21 @@
+type KeyValuePair {
+    key: String!
+    value: String!
+    valueType: ValueTypeEnum
+}
+
+input KeyValuePairInput {
+    key: String!
+    value: String!
+    valueType: ValueTypeEnum
+}
+
+enum ValueTypeEnum {
+    OBJECT
+    INT
+    DOUBLE
+    FLOAT
+    LONG
+    STRING
+    BOOLEAN
+}

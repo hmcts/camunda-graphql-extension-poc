@@ -1,0 +1,30 @@
+type Task {
+    id: String
+    name: String
+    description: String
+    priority: Int
+    owner: String
+    assignee: User
+    #delegationState: DelegationState
+    processInstanceId: String
+    processInstance: ProcessInstance
+    executionEntity: Execution
+    executionId: String
+    processDefinitionId: String
+    processDefinition: ProcessDefinition
+    caseInstanceId: String
+    caseExecutionId: String
+    caseDefinitionId: String
+    createTime: String
+    taskDefinitionKey: String
+    #dueDate
+    #followUpDate
+    parentTaskId: String
+    isSuspended: Boolean
+    formKey: String
+    tenantId: String
+
+    contextPath: String
+
+    variables: [KeyValuePair]
+}

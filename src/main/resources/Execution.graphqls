@@ -1,0 +1,18 @@
+type ProcessInstance @doc(d: "Represents one execution of a ProcessDefinition.") {
+    id: String
+    processInstanceId: String
+    tenantId: String
+    isEnded: Boolean
+    processDefinitionId: String
+    businessKey: String
+    caseInstanceId: String
+    variables: [KeyValuePair]
+}
+
+type Execution {
+    id: String
+    isSuspended: Boolean
+    isEnded: Boolean
+    processInstanceId: String
+    tenantId: String
+}
