@@ -189,7 +189,7 @@ dependencies {
 
   implementation group: 'com.graphql-java-kickstart', name:'graphql-java-tools', version:'6.2.0'
   implementation group: 'com.graphql-java-kickstart', name:'graphql-spring-boot-starter', version:'8.0.0'
-  implementation group: 'com.graphql-java-kickstart', name:'graphiql-spring-boot-starter', version:'8.0.0'
+  implementation group: 'com.graphql-java-kickstart', name:'graphiql-spring-boot-starter', version:'11.0.0'
   implementation group: 'org.camunda.spin', name:'camunda-spin-core', version:'1.10.0'
   implementation group: 'org.camunda.spin', name:'camunda-spin-core', version:'1.10.0'
   implementation group: 'javax.ws.rs', name:'javax.ws.rs-api', version:'2.1.1'
