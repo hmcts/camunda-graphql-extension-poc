@@ -185,7 +185,7 @@ dependencies {
   runtimeOnly group:'org.camunda.bpm', name:'camunda-engine-rest', version:'7.14.0'
 
   implementation group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter-webapp', version:'7.14.0'
-  implementation group: 'com.sun.xml.bind', name: 'jaxb-impl', version:'2.2.3'
+  implementation group: 'com.sun.xml.bind', name: 'jaxb-impl', version:'3.0.2'
 
   implementation group: 'com.graphql-java-kickstart', name:'graphql-java-tools', version:'6.2.0'
   implementation group: 'com.graphql-java-kickstart', name:'graphql-spring-boot-starter', version:'8.0.0'
